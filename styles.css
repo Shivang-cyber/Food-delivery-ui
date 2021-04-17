@@ -1,0 +1,394 @@
+*{
+  margin:0;
+  font-family: 'PT Serif', serif;
+  max-width: 100vw;
+}
+#main{
+  display:flex;
+  width:100vw;
+  height:100vh;
+  background-color: #FAFAFA;
+}
+#errtxt{
+  display: none;
+}
+#cont_1{
+  min-width:220px;
+  width:18%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #FAFAFA;
+}
+#nav{
+  display:flex;
+  flex-direction:column;
+  height:89%;
+  width:90%;
+  margin:30px;
+  background-color: #FAFAFA;
+  
+}
+#A{
+  width:80%;
+  height:20%;
+  background-color: #FAFAFA;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 3.5rem;
+}
+#tx{
+  font-style: normal;
+  font-weight: 1000;
+}
+#B{
+  width:80%;
+  height:50%;
+  background-color: #FAFAFA;
+  margin:auto;
+   display:flex;
+  flex-direction:column;
+  justify-content:center;
+  line-height:6vh;
+  font-size:1.3rem
+}
+a{
+  color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#C{
+  width:60%;
+  height:7%;
+  background-color:rgb(221, 54, 54);
+  margin:auto;
+     display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border-radius: 55px;
+  font-size:1.5rem;
+  color: white;
+  font-weight: bold;
+}
+#C>a{
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+#front{
+  flex-direction:column;
+  width:82%;
+  height:100%;
+  background-color: #FAFAFA;
+}
+#top{
+    display:flex;
+    width:100%;
+    height:50%;
+    background-color: #FAFAFA;
+}
+#front-text{
+    width:65%;
+    height:100%;
+     display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #FAFAFA;
+}
+#T1{
+  padding-left: 80px;
+  font-size: 8.5vh;
+  font-weight: bolder;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  background-color: #FAFAFA;
+}
+#T2{
+  font-size: 1.3rem;
+  background-color: #FAFAFA;
+  margin: 5%;
+  margin-left: 20%;
+  margin-right: 40%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#red{
+  width: 30%;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  right: 14.7%;
+  border-radius: 55px;
+  
+}
+#side-text{
+         width:35%;
+         height:100%;
+         color: gray;
+         display:flex;
+         align-items:center;
+         justify-content:center;
+         flex-direction:column;
+}
+#bottom{
+  max-width:100%;
+      width:80vw;
+      height:50%;
+      background-color: #FAFAFA;
+      overflow: auto;
+      white-space: nowrap;
+      overflow: hidden;
+}
+#first{
+  margin-left: 150px;
+  background-color: #FAFAFA;
+}
+.block{
+  height: 280px;
+  width: 240px;
+  background-color: white;
+  margin: 25px;
+  margin-top: 80px;
+  display: inline-block;
+  border-radius: 35px;
+  box-shadow: 20px 20px 15px grey;}
+.I{
+display: flex;
+align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.IM{
+  height: 180px;
+  width: 180px;
+  background-color: yellow;
+    border-radius: 200px;
+    margin: 20px;
+}
+.T{
+  font-size: 120%;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#aa{
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+}
+#ab{
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+}
+#ac{
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+}
+#ad{
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+}
+#ae{
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+}
+#af{
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+}
+@media screen and (max-width: 1225px) {
+ .bottom{
+width:80vw;
+  }
+}
+@media screen and (max-width: 1102px) {
+ .bottom{
+width:75vw;
+  }
+}
+@media screen and (max-width: 884px) {
+ .bottom{
+width:70vw;
+  }
+}
+#mob{
+  height:15vw;
+  width:200%;
+  display:none;
+}
+
+
+@media screen and (max-width: 980px) {
+  #cont_1, #top, #bottom{
+    display:none;
+  }
+
+#mob{
+display: flex;
+flex-direction: column;
+background-color: #FAFAFA;
+}
+#nav1{
+  display:flex;
+  height:75px;
+  width:768px;
+  justify-content:space-between;
+  flex-direction: row;
+  background-color: #FAFAFA;
+}
+#lt, #ct, #rt{
+  margin: 10px;
+}
+#lta{
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+#ct{
+  font-size: 40px;
+  font-weight: 900;
+}
+#rta{
+  position: relative;
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+#front1{
+  width:768px;
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+#txt1{
+height: 120px;
+width: 55vw;
+font-size: 30px;
+margin-left: 22vw;
+margin-top: 16px;
+font-weight: 900;
+}
+#box{
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  justify-content:center;
+  background-color: #FAFAFA;
+   
+}
+#box-a{
+  display: flex;
+  flex-wrap: wrap;
+  height: 65vh;
+  width: 80%;
+ background-color: #FAFAFA;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: auto;
+  overflow-y: scroll;
+   justify-content:center;
+}
+#box-a::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#box-a {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.AB{
+  width: 140px;
+  height:180px;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgb(146, 141, 141);
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 25px;
+  display: flex;
+  align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.AC{
+  width: 100px;
+  height: 100px;
+  background-image: url(https://www.pinclipart.com/picdir/big/52-527115_tacos-cliparts-clip-art-mexican-food-png-transparent.png);
+  border-radius: 50px;
+  position: relative;
+    top: -15px;
+}
+.AD{
+  font-weight: 600;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#end{
+  height: 100px;
+  width: 100%;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  
+}
+#sec{
+  height: 80%;
+  width: 70%;
+  position: relative;
+  top: 9vh;
+  background-color: #FAFAFA;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#red1{
+  width: 90px; 
+  height: 2.5px;  
+  background-color: red;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+}
+@media screen and (max-width: 296px) {
+  #mob{ 
+    display: none;
+  }
+  #errtxt{
+    display: flex;
+    margin-top: 50vh;
+    margin-left: 35%;
+    text-align: center;
+    font-weight: 900;
+  }
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+
+  display: block;
+  transition: 0.3s;
+}
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color:#FAFAFA;
+  color: #F1ADA6;
+  
+  border: none;
+}
+a{
+  text-decoration:none;
+}
